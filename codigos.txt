@@ -1,0 +1,5 @@
+ls -al = Ver archivos de una carpeta (a = archivos ocultos) (l = ponerlos en lista)
+mkdir <nombre> = crea una carpeta
+touch <archivo.txt> = Crea un archivo .txt
+cat  <archivo.txt> = Abrir un archivo txt
+cd = Cambiar de carpeta 
