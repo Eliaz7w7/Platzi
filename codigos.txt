@@ -3,3 +3,10 @@ mkdir <nombre> = crea una carpeta
 touch <archivo.txt> = Crea un archivo .txt
 cat  <archivo.txt> = Abrir un archivo txt
 cd = Cambiar de carpeta 
+
+// DE GIT A GITHUB
+
+git remote add <nombre> <url> = Creamos un repositorio remoto (poner nombre) (ingresar url de github)
+git pull <nombre> <master> = Bajamos los archivos del repo. remoto a Git (nombre repo remoto) (rama a bajar de GitHub)
+-- En caso haya un error con final (unrelat histories)
+git pull origin master --allow-unrelated-histories
