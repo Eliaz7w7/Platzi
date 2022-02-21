@@ -11,7 +11,7 @@ git commit -m = Agregar un archivo al repositorio
 -// git commit -am = Añadir al staging y agregar al repositorio
 git log = Ver modificaciones de tados los archivos
 git log <nombre_archivo> = Ver modificaciones de un archivo en especifico
-
+git status = Ver si hay algo en el repo o en el staging (rojo = no fue añadido; verde = esta en el staging)
 git branch <nombre> = Crear una rama
 git checkout <nombre rama> = Viaja de rama (nombre rama = A que rama viajar)
 git checkout <id_sha> = Visualiza esa version de archivo (id_sha = Ingresar codigo largo de 40 digitos)
