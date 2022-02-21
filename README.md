@@ -1,2 +1,0 @@
-# Platzi2
-clases
