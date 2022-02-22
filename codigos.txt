@@ -11,6 +11,7 @@ git commit -m = Agregar un archivo al repositorio
 -// git commit -am = Añadir al staging y agregar al repositorio
 git log = Ver modificaciones de tados los archivos
 git log <nombre_archivo> = Ver modificaciones de un archivo en especifico
+git log --all --graph = Ver las ramas graficadas como lo hace Fredy
 git status = Ver si hay algo en el repo o en el staging (rojo = no fue añadido; verde = esta en el staging)
 git branch <nombre> = Crear una rama
 git checkout <nombre rama> = Viaja de rama (nombre rama = A que rama viajar)
@@ -43,3 +44,11 @@ git pull origin master --allow-unrelated-histories
     git remote set-url origin <url de ssh desde GitHub>
 5. Hacer un pull a GitHub
     git pull origin master
+
+// CREAR TAGS
+1. Crear Tag
+    git tag -a <nombre> -m "mensaje" HASH
+2. Eliminar tag de git
+    git tag -d <nombre>
+3. Eliminar tag de github
+    git push origin :/sets/tag/<nombre>
