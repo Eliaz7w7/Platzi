@@ -18,8 +18,28 @@ git checkout <id_sha> = Visualiza esa version de archivo (id_sha = Ingresar codi
 
 
 // DE GIT A GITHUB
-
 git remote add <nombre> <url> = Creamos un repositorio remoto (poner nombre) (ingresar url de github)
 git pull <nombre> <master> = Bajamos los archivos del repo. remoto a Git (nombre repo remoto) (rama a bajar de GitHub)
 -- En caso haya un error con final (unrelat histories)
 git pull origin master --allow-unrelated-histories
+
+//PASOS UNIR DE GIT A GITHUB CON HTTP
+1. Crear repositorio remoto
+    git remote add origin <url> (El url lo copiamos de github)
+2. Verificar si todo esta bien
+    git remote     git remote -verde
+3. Bajar los archivos de GitHub a Git
+    git pull origin remote --allow-unrelated-histories
+    (Si sucede un tipo de error solucionarlo y poner el codigo anterior)
+    //CAMBIAR DE HTTPS A SSH
+1. Creamos la llave publica y privada
+    ssh-keygen -t rsa -b 4096 -C "correo@gmail.com"
+2. Decir que la llave existe
+    ssh-add ~/.ssh/id_rsa
+3. Darle la llave publica a GitHub
+    ** Vamos a ~/.ssh/  abrimos id_rsa.pub lo copiamos 
+    Vamos a GitHub-config-https y ssh; pegamos el codigo **
+4. Cambiamos de https a ssh
+    git remote set-url origin <url de ssh desde GitHub>
+5. Hacer un pull a GitHub
+    git pull origin master
