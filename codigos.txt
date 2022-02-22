@@ -48,7 +48,9 @@ git pull origin master --allow-unrelated-histories
 // CREAR TAGS
 1. Crear Tag
     git tag -a <nombre> -m "mensaje" HASH
-2. Eliminar tag de git
+2. Enviarlo a GitHub
+    git push origin --tags
+3. Eliminar tag de git
     git tag -d <nombre>
-3. Eliminar tag de github
-    git push origin :/sets/tag/<nombre>
+4. Eliminar tag de github
+    git push origin :refs/tags/<nombre>
