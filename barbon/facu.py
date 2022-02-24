@@ -1,4 +1,4 @@
-#PALINDROMO
+# PALINDROMO
 
 def palin(palabra):
     palabra=palabra.replace(" ","").lower()
@@ -17,4 +17,25 @@ def run():
 
 if __name__=="__main__":
     run()
+    print()
 
+# PRIMOS
+
+def run():
+    divi = int(input("Ingrese un numero: "))
+    disor = 0
+    cont = 0
+
+    while disor < divi:
+        disor = disor+1
+        if divi % disor == 0 and divi//disor <= divi:
+            cont = cont+1
+    if cont == 2:
+        print("Es primo")
+    else:
+        print("No es primo")
+
+
+if __name__ == "__main__":
+    run()
+    print()
