@@ -22,10 +22,6 @@ if __name__=="__main__":
 # PRIMOS
 
 def run():
-    divi = int(input("Ingrese un numero: "))
-    disor = 0
-    cont = 0
-
     while disor < divi:
         disor = disor+1
         if divi % disor == 0 and divi//disor <= divi:
@@ -37,5 +33,5 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    run(int(input("Ingrese un numero: ")),0,0)
     print()

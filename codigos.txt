@@ -54,3 +54,10 @@ git pull origin master --allow-unrelated-histories
     git tag -d <nombre>
 4. Eliminar tag de github
     git push origin :refs/tags/<nombre>
+
+//PULL REQUEST
+
+Un pull request es revisar los cambios antes de hacer un merge
+
+//REBASE
+Git rebase se usa cuando se quiere juntar una rama con otra eliminando el historial
