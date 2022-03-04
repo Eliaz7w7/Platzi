@@ -36,3 +36,11 @@ def run(divi,divisor,cont):
 if __name__ == "__main__":
     run(int(input("Ingrese un numero: ")),0,0)
 
+def run():
+    contra=int(input("Ingrese contrasena: "))
+    while contra!=123:
+        contra=int(input("Ingrese contrasena: "))
+    
+
+if __name__=="__main__":
+    run()
