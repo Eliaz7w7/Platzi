@@ -1,9 +1,0 @@
-mensaje de prueba pa ver si aparece en status
-master 1
-master 2
-
-
-
-expe 1
-
-expe 2
