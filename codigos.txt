@@ -61,3 +61,21 @@ Un pull request es revisar los cambios antes de hacer un merge
 
 //REBASE
 Git rebase se usa cuando se quiere juntar una rama con otra eliminando el historial
+
+//STASH	
+Git stash guarda el codigo en un espacio en memoria
+GIT STASH LIST = puedes ver la cantidad des stash que tienes
+GIT STASH POP = eliminar el stash list y regresa el codigo como estaba antes del stash
+GIT STASH DROP = eliminas el stash list y deja el codigo como estaba
+
+//CHERRY PICK 
+Con cherry-pick agarras el contenido de un commit y lo guardas en la cabezera de la rama actual
+
+//GIT CLEAN
+Con git clean eliminas el codigo que no esta traqueado
+GIT CLEAN -d --dry-run = ver los archivos y carpetas que se van a eliminar
+GIT CLEAN -fd = eliminar archivos previamente vistos
+
+//GIT REFLOG
+Reflog se usa pa ver el historial completo (aun asi haya sido modificado)
+
