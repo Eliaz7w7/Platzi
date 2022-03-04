@@ -61,11 +61,3 @@ Un pull request es revisar los cambios antes de hacer un merge
 
 //REBASE
 Git rebase se usa cuando se quiere juntar una rama con otra eliminando el historial
-
-master 2
-codigo para rebase
-
-
-expe1
-
-expe 2
