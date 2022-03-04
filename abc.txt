@@ -1,6 +1,6 @@
 mensaje de prueba pa ver si aparece en status
 master 1
-
+master 2
 
 
 
