@@ -1,1 +1,2 @@
-# Platzi10
+# Platzi
+Aqui escribo el codigo que aprendo en platzi
