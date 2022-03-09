@@ -1,0 +1,24 @@
+Para este entonces se debe aprender Python basico y git y github con Freddy
+
+//QUE ES UN ENTORNO VIRTUAL
+Un entorno virtual es como "un cuarto para cada proyecto" 
+Ejm: 
+	|||||||||||||||||		|||||||||||||||||				|		|		|		|
+	|PROYECTO A	|		|PROYECTO B	|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|		|		|		|
+	|||||||||||||||||		|||||||||||||||||	
+
+En cada proyecto se puede modificar un modulo (como random) 
+Si bien lo modificas en A puedes y no puedes modificarlo en B
+
+
+
